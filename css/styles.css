@@ -226,11 +226,11 @@ background-color: #404bbf;
 padding: 120px 0;
 }
 
-.team-section ul,
-.portfolio ul {
+.team-section ul
+{
 display: flex;
 justify-content: center;
-gap: 48px 24px;
+gap: 24px;
 flex-wrap: wrap;
 } 
 
@@ -304,7 +304,12 @@ img {
 .portfolio{
     background-color: #FFFFFF;
 }
-
+ .portfolio ul {
+    display: flex;
+    justify-content: center;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+ }
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -351,10 +356,13 @@ border-top: none;
     background: #2e2f42;
     padding: 100px 0;
 }
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #4d5ae5;
+}
 
 .footer-logo .logo-part {
-    margin-bottom: 16px;
-    display: inline-block;
     color: #f4f4fd;
 }
 
